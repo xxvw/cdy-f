@@ -1,0 +1,9 @@
+localhost
+
+# template
+
+# zstd gzip 入れないとアップロードが文字化けする
+encode zstd gzip
+templates
+# ↓入れなくてもまる
+file_server browse
